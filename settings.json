@@ -1,12 +1,12 @@
 {
   "name": "AFK Bot",
   "bot-account": {
-    "username": "Mnil_maka",
+    "username": "your_depeka",
     "password": "",
     "type": "offline"
   },
   "server": {
-    "ip": "Mamaantismp.aternos.me",
+    "ip": "TheKhukuriXsmp.aternos.me",
     "port": 39827,
     "version": "",
     "try-creative": false
@@ -29,13 +29,33 @@
     "chat-messages": {
       "enabled": true,
       "repeat": true,
-      "repeat-delay": 120,
+      "repeat-delay": 30,
       "messages": [
-        "I'm a regular player",
-        "Subscribe to Slobos!",
+        "i am intrest on doremon",
+        "i love to make friends!",
         "I like to play Minecraft!"
       ]
+    "auto-chat": {
+  "enabled": true,
+  "triggers": [
+    {
+      "keywords": ["who is guy", "who is gay"],
+      "response": "Manil is the real gay"
     },
+    {
+      "keywords": ["oi"],
+      "response": "tero bau"
+    },
+    {
+      "keywords": ["baby"],
+      "response": "yes my dear"
+    },
+    {
+      "keywords": ["kata xau"],
+      "response": "kina chaiyo vai talai"
+    }
+  ]
+
     "chat-log": true,
     "auto-reconnect": true,
     "auto-reconnect-delay": 2000,
